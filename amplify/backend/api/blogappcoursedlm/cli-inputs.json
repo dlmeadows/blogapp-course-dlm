@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "serviceConfiguration": {
+    "apiName": "blogappcoursedlm",
+    "serviceName": "AppSync",
+    "gqlSchemaPath": "/Users/davidmeadows/Code/Udemy/AWS-AppSync&Amplify/blogapp-course-dlm/amplify/backend/api/blogappcoursedlm/schema.graphql",
+    "defaultAuthType": {
+      "mode": "API_KEY",
+      "expirationTime": 365,
+      "apiKeyExpirationDate": "2023-04-14T13:58:02.953Z",
+      "keyDescription": "public api key"
+    },
+    "conflictResolution": {},
+    "additionalAuthTypes": [
+      {
+        "mode": "AMAZON_COGNITO_USER_POOLS",
+        "cognitoUserPoolId": "authblogappcoursedlm367817b7"
+      }
+    ]
+  }
+}
